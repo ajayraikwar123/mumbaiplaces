@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mumbai Travel Guide</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #121212;
+      color: #f1f1f1;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+      background: #1e1e1e;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+    }
+    header h1 {
+      color: #ffcc00;
+      margin: 0;
+      font-size: 26px;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background: #1e1e1e;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+      transition: transform 0.2s;
+    }
+    .card:hover { transform: scale(1.02); }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 15px;
+    }
+    .card-content h2 {
+      margin: 0 0 10px;
+      color: #ffcc00;
+    }
+    .travel-options p {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      color: #aaa;
+      background: #1e1e1e;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mumbai Famous Places & How to Reach</h1>
+  </header>
+
+  <div class="container">
+    <!-- ISKCON Juhu -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/ISKCON_Temple_Juhu.jpg" alt="ISKCON Juhu">
+      <div class="card-content">
+        <h2>ISKCON Juhu</h2>
+        <p>Spiritual temple dedicated to Lord Krishna near Juhu Beach.</p>
+        <div class="travel-options">
+          <p>🚆 Andheri / Vile Parle → Auto</p>
+          <p>🚌 Juhu Bus Depot</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Siddhivinayak Mandir -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Siddhivinayak_Temple_Mumbai.jpg" alt="Siddhivinayak Mandir">
+      <div class="card-content">
+        <h2>Siddhivinayak Mandir</h2>
+        <p>Famous Lord Ganesha temple in Prabhadevi.</p>
+        <div class="travel-options">
+          <p>🚆 Dadar → Taxi</p>
+          <p>🚌 BEST buses available</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Trimandir -->
+    <div class="card">
+      <img src="https://trimandir.org/wp-content/uploads/2020/07/Trimandir-Bhavnagar.jpg" alt="Trimandir">
+      <div class="card-content">
+        <h2>Trimandir</h2>
+        <p>Peaceful Jain temple complex.</p>
+        <div class="travel-options">
+          <p>🚆 Nearest: Bhayandar → Auto</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Jogeshwari Garden -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Jogeshwari_Garden.jpg" alt="Jogeshwari Garden">
+      <div class="card-content">
+        <h2>Jogeshwari Garden</h2>
+        <p>Public park for walks and family time.</p>
+        <div class="travel-options">
+          <p>🚆 Jogeshwari → Walk/Auto</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mahalaxmi Mandir -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Mahalaxmi_Temple_Mumbai.jpg" alt="Mahalaxmi Mandir">
+      <div class="card-content">
+        <h2>Mahalaxmi Mandir</h2>
+        <p>Popular temple dedicated to Goddess Mahalaxmi.</p>
+        <div class="travel-options">
+          <p>🚆 Mahalaxmi → Taxi</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mumbai Devi Mandir -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Mumbadevi_Temple.jpg" alt="Mumbai Devi Mandir">
+      <div class="card-content">
+        <h2>Mumbai Devi Mandir</h2>
+        <p>Temple of city's patron goddess Mumbadevi.</p>
+        <div class="travel-options">
+          <p>🚆 Charni Road → Taxi</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bandra Fort -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Bandra_Fort.jpg" alt="Bandra Fort">
+      <div class="card-content">
+        <h2>Bandra Fort</h2>
+        <p>Historic Portuguese fort overlooking the Sea Link.</p>
+        <div class="travel-options">
+          <p>🚆 Bandra → Auto</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- CST -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Chhatrapati_Shivaji_Terminus_Mumbai.jpg" alt="CST">
+      <div class="card-content">
+        <h2>Chhatrapati Shivaji Terminus</h2>
+        <p>UNESCO-listed railway station with Victorian architecture.</p>
+        <div class="travel-options">
+          <p>🚆 Direct to CST</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gateway of India -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Gateway_of_India_2017_img3.jpg" alt="Gateway of India">
+      <div class="card-content">
+        <h2>Gateway of India</h2>
+        <p>Iconic arch monument in Colaba.</p>
+        <div class="travel-options">
+          <p>🚆 CST → Taxi</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Marine Lines -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Marine_Drive_Mumbai.jpg" alt="Marine Lines">
+      <div class="card-content">
+        <h2>Marine Lines</h2>
+        <p>Scenic seafront stretch in South Mumbai.</p>
+        <div class="travel-options">
+          <p>🚆 Marine Lines → Walk</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dadar Chowpatty -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Dadar_Chowpatty.jpg" alt="Dadar Chowpatty">
+      <div class="card-content">
+        <h2>Dadar Chowpatty</h2>
+        <p>Small beach near Dadar for evening walks.</p>
+        <div class="travel-options">
+          <p>🚆 Dadar → Taxi</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Kharghar ISKCON -->
+    <div class="card">
+      <img src="https://iskconkharghar.com/images/temple.jpg" alt="Kharghar ISKCON">
+      <div class="card-content">
+        <h2>ISKCON Kharghar</h2>
+        <p>Lord Krishna temple in Navi Mumbai.</p>
+        <div class="travel-options">
+          <p>🚆 Kharghar → Auto</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Thane ISKCON -->
+    <div class="card">
+      <img src="https://iskconthane.com/images/temple.jpg" alt="Thane ISKCON">
+      <div class="card-content">
+        <h2>ISKCON Thane</h2>
+        <p>Krishna temple in Thane city.</p>
+        <div class="travel-options">
+          <p>🚆 Thane → Auto</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Babulnath -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Babulnath_temple_Mumbai.jpg" alt="Babulnath">
+      <div class="card-content">
+        <h2>Babulnath Temple</h2>
+        <p>Ancient Shiva temple near Girgaon.</p>
+        <div class="travel-options">
+          <p>🚆 Charni Road → Walk</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Babulnath ISKCON -->
+    <div class="card">
+      <img src="https://iskcon.org/images/iskcon-temple.jpg" alt="Babulnath ISKCON">
+      <div class="card-content">
+        <h2>ISKCON Babulnath</h2>
+        <p>ISKCON center near Babulnath temple.</p>
+        <div class="travel-options">
+          <p>🚆 Charni Road → Walk</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Shiv Temple Ambernath -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Ambernath_Shiva_Temple.jpg" alt="Shiv Temple Ambernath">
+      <div class="card-content">
+        <h2>Shiv Temple Ambernath</h2>
+        <p>Historic temple from the 11th century.</p>
+        <div class="travel-options">
+          <p>🚆 Ambernath → Auto</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Panchkutir -->
+    <div class="card">
+      <img src="https://i.imgur.com/dummy.jpg" alt="Panchkutir">
+      <div class="card-content">
+        <h2>Panchkutir</h2>
+        <p>Residential area in Powai near IIT Bombay.</p>
+        <div class="travel-options">
+          <p>🚆 Kanjurmarg / Vikhroli → Auto</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- IIT Bombay -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/IIT_Bombay_Main_Building.jpg" alt="IIT Bombay">
+      <div class="card-content">
+        <h2>IIT Bombay</h2>
+        <p>Premier engineering institute in Powai.</p>
+        <div class="travel-options">
+          <p>🚆 Kanjurmarg / Vikhroli → Auto</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SGNP -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Sanjay_Gandhi_National_Park_Main_Gate.jpg" alt="SGNP">
+      <div class="card-content">
+        <h2>Sanjay Gandhi National Park</h2>
+        <p>Large park with greenery and wildlife.</p>
+        <div class="travel-options">
+          <p>🚆 Borivali → Auto</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Kanheri Caves -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Kanheri_Caves.jpg" alt="Kanheri Caves">
+      <div class="card-content">
+        <h2>Kanheri Caves</h2>
+        <p>Buddhist caves inside SGNP.</p>
+        <div class="travel-options">
+          <p>🚆 Borivali → Inside SGNP</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Thane Garden -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Thane_Garden.jpg" alt="Thane Garden">
+      <div class="card-content">
+        <h2>Thane Garden</h2>
+        <p>Public garden for family outings.</p>
+        <div class="travel-options">
+          <p>🚆 Thane → Auto</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Jivdani Mata Temple -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Jivdani_Mata_Temple.jpg" alt="Jivdani Mata Temple">
+      <div class="card-content">
+        <h2>Jivdani Mata Temple</h2>
+        <p>Hilltop temple in Virar.</p>
+        <div class="travel-options">
+          <p>🚆 Virar → Auto</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pagoda & Gorai Beach -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Global_Vipassana_Pagoda.jpg" alt="Pagoda">
+      <div class="card-content">
+        <h2>Pagoda & Gorai Beach</h2>
+        <p>Massive meditation dome and beach area.</p>
+        <div class="travel-options">
+          <p>🚆 Borivali → Ferry to Gorai</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Priyadarshi Park -->
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Priyadarshini_Park.jpg" alt="Priyadarshi Park">
+      <div class="card-content">
+        <h2>Priyadarshi Park, Grant Road</h2>
+        <p>Seaside park with walking tracks.</p>
+        <div class="travel-options">
+          <p>🚆 Grant Road → Walk</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>© 2025 Mumbai Travel Guide</footer>
+</body>
+</html>
